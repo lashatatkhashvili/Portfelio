@@ -1,4 +1,9 @@
-
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #06080c;
+  --main-blue: #171d2b;
+  --main-gray: #303841;
+}
 
 /* Base reset */
 * {
@@ -6,6 +11,11 @@
   padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 /* box-sizing and font sizing */
 
 
